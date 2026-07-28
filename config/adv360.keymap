@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL       &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 3                                                   &mo 4      &kp N6  &kp N7  &kp N8    &kp N9    &kp N0     &kp BSLH
-&kp TAB         &kp B      &kp L     &kp D     &kp C      &kp V   &none                                                    &none      &kp J   &kp Y   &kp O     &kp U     &kp COMMA  &kp FSLH
-&mt LCTRL ESC   &lt 2 N    &kp R     &lt 1 T   &kp S      &kp G   &tog 2    &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp P   &kp H   &lt 1 A   &kp E     &lt 2 I    &mt RCTRL MINUS
-&mt LSHFT LPAR  &kp X      &kp Q     &kp M     &kp W      &kp Z                        &kp HOME      &kp PG_UP                        &kp K   &kp F   &kp SQT   &kp SEMI  &kp DOT    &mt RSHFT RPAR
-&mo 1           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT   &mo 1
+&kp EQUAL       &kp N1     &kp N2          &kp N3    &kp N4     &kp N5   &tog 3                                                   &mo 4      &kp N6   &kp N7  &kp N8    &kp N9             &kp N0     &kp BSLH
+&kp TAB         &kp B      &kp L           &kp D     &kp C      &kp V    &none                                                    &none      &kp J    &kp Y   &kp O     &kp U              &kp COMMA  &kp FSLH
+&mt LCTRL ESC   &kp N      &kp R           &lt 1 T   &kp S      &lt 2 G  &tog 2    &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &lt 2 P  &kp H   &lt 1 A   &kp E              &kp I      &mt RCTRL MINUS
+&mt LSHFT LPAR  &kp X      &mt LEFT_ALT Q  &kp M     &kp W      &kp Z                         &kp HOME      &kp PG_UP                        &kp K    &kp F   &kp SQT   &mt LEFT_ALT SEMI  &kp DOT    &mt RSHFT RPAR
+&mo 1           &kp GRAVE  &kp CAPS        &kp LEFT  &kp RIGHT           &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE           &kp UP  &kp DOWN  &kp LBKT           &kp RBKT   &mo 1
             >;
         };
 
